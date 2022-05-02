@@ -1,0 +1,110 @@
+https://coolors.co/9c89b8-f0a6ca-efc3e6-f0e6ef-b8bedd>
+    head {
+    background-color: #f0e6ef;
+}
+#intro {
+    color: azure;
+    background-color: #1b4079;
+    height: 100vh;
+    animation: text duration 4ms delay 3s;
+}
+
+#intro #downArrow {
+    font-size: 40px;
+    color: white;
+}
+#about {
+    color: azure;
+}
+
+#about {
+    background-color: #f0a6ca;
+    width: 100%;
+    padding: 30px;
+}
+
+#contact {
+    background: #b8bedd;
+    color: white;
+    padding: 30px;
+}
+section {
+    min-height: 30vh;
+}
+
+#contact a {
+    color: white;
+}
+
+#contact input {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#contact textarea {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#contact .btn {
+    width: 100%;
+}
+#portfolio {
+    background-color: #f0e6ef;
+}
+#portfolio .card {
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer {
+    background: #f0e6ef;
+    padding: 30px;
+    color: white;
+}
+
+#contact p {
+    color: red;
+}
+
+code {
+    color: azure;
+    font-size: x-large;
+}
+
+body {
+    background-color: #f0e6ef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-light {
+    background-color: #f0a6ca !important;
+}
+
+#project {
+    background-color: aliceblue;
+    color: red;
+    padding: 20px;
+}
+#project img {
+    border-radius: 5px;
+}
+.badge {
+    background-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+}
