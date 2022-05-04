@@ -2,9 +2,10 @@ https://coolors.co/9c89b8-f0a6ca-efc3e6-f0e6ef-b8bedd>
     head {
     background-color: #f0e6ef;
 }
+
 #intro {
     color: azure;
-    background-color: #1b4079;
+    background-color: #efc3e6;
     height: 100vh;
     animation: text duration 4ms delay 3s;
 }
