@@ -1,13 +1,32 @@
-https://coolors.co/9c89b8-f0a6ca-efc3e6-f0e6ef-b8bedd>
-    head {
-    background-color: #f0e6ef;
+@import url("https://coolors.co/ffffff-af7595-c9f9ff-0081af-ffe9f3");
+
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri&family=Josefin+Sans:wght@200&family=Source+Sans+Pro:wght@300&display=swap");
+
+@import url("https://fontawesome.com/v5/icons/github?s=brands");
+
+head {
+    background-color: #b8bedd;
+}
+#name {
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 #intro {
-    color: azure;
-    background-color: #efc3e6;
+    background-color: #ff7c52;
     height: 100vh;
+    padding: 30px;
     animation: text duration 4ms delay 3s;
+    /* font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif; */
+}
+#into h1 {
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    animation: fadein ease-in 1s;
 }
 
 #intro #downArrow {
@@ -15,22 +34,29 @@ https://coolors.co/9c89b8-f0a6ca-efc3e6-f0e6ef-b8bedd>
     color: white;
 }
 #about {
-    color: azure;
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 #about {
-    background-color: #f0a6ca;
+    background-color: #dca7a3;
     width: 100%;
     padding: 30px;
+    padding-left: 20px;
 }
 
 #contact {
-    background: #b8bedd;
+    background: #e69580;
     color: white;
     padding: 30px;
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 section {
     min-height: 30vh;
+    box-shadow: -10px 0 25px #ffff;
 }
 
 #contact a {
@@ -54,8 +80,18 @@ section {
     width: 100%;
 }
 #portfolio {
-    background-color: #f0e6ef;
+    background-color: #ffa780;
+    padding: 30px;
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
+.portfolioTitle {
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 #portfolio .card {
     width: 100%;
 }
@@ -71,7 +107,13 @@ footer {
 }
 
 #contact p {
-    color: red;
+    color: white;
+}
+
+.contactInfo {
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 code {
@@ -81,19 +123,25 @@ code {
 
 body {
     background-color: #f0e6ef;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "El Messiri", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 .bg-light {
-    background-color: #f0a6ca !important;
+    background-color: lightcoral !important;
 }
 
 #project {
-    background-color: aliceblue;
-    color: red;
+    background-color: lavenderblush;
+    color: black;
     padding: 20px;
 }
 #project img {
-    border-radius: 5px;
+    border-radius: 10px;
+}
+#project #navigateArrows > span {
+    font-size: 40px;
+    margin-top: 25px;
 }
 .badge {
     background-color: black;
@@ -101,11 +149,6 @@ body {
     border-radius: 5px;
 }
 
-h1 {
-    font-size: 75px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 h3 {
-    font-size: 40px;
+    font-size: 15px;
 }

@@ -22,27 +22,40 @@
         <div class="container">
             <section
                 id="intro"
-                class="d-flex flex-column align-items-center justify-content-center"
+                class="d-flex flex-column justify-content-center align-items-center"
             >
-                <h1>Nicole Broadnax</h1>
+                <h1 id="name">Nicole Broadnax</h1>
                 <h3>City's First Software Developer</h3>
                 <code>Html,CSS,Bootstrap,Javascript</code>
                 <a href="#about">
-                    <span class="material-symbols-outlined" id="downArrow">
+                    <span class="material-symbols-outlined" id="arrowDown">
                         expand_more
                     </span>
                 </a>
             </section>
-            <section id="portfolio">
-                <h1>Portfolio</h1>
-                <p>blah blah blah</p>
+            <section
+                id="portfolio"
+                class="d-flex flex-column justify-content-center"
+            >
+                <h1 class="portfolioTitle">Portfolio</h1>
+                <p>
+                    To view more details about my projects, click on any of the
+                    cards.
+                </p>
                 <div class="row">
                     <div class="col-xs-6 col-sm-4">
                         <div class="card">
-                            <img src="Weather.png" class="card-img-top" />
+                            <img
+                                src="Weather.png"
+                                alt="Screenshot of Weather App"
+                                class="card-img-top"
+                            />
                             <div class="card-body">
                                 <h5 class="card-title">Weather App</h5>
-                                <p class="card-text">a.</p>
+                                <p class="card-text">
+                                    This is my first front end project modeled
+                                    after a weather app.
+                                </p>
                                 <a href="weather.html" class="btn btn-secondary"
                                     >Make it rain</a
                                 >
@@ -51,26 +64,28 @@
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <div class="card">
-                            <img src="" class="card-img-top" />
+                            <img src="30second.png" class="card-img-top" />
                             <div class="card-body">
                                 <h5 class="card-title">FeedBack Form</h5>
-                                <p class="card-text">Collecting feedback</p>
+                                <p class="card-text">
+                                    Feedback form modeled after Google forms.
+                                </p>
                                 <a
                                     href="index.html#feedback"
                                     class="btn btn-secondary"
-                                    >Make it rain</a
+                                    >Provide FeedBack</a
                                 >
                             </div>
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-4">
                         <div class="card">
-                            <img src="Nicflix.png" card-img-top />
+                            <img src="Nicflix.png" class="card-img-top" />
                             <div class="card-body">
                                 <h5 class="card-title">NicFlix</h5>
                                 <p class="card-text">
-                                    MY Nicflix Site grid system modeled after
-                                    Netflix
+                                    My First Project! This is a recreation of a
+                                    particular streaming service.
                                 </p>
                                 <a href="#" class="btn btn-secondary"
                                     >Start Streaming</a
@@ -84,24 +99,29 @@
                 id="about"
                 class="d-flex flex-column justify-content-center"
             >
-                <h1>About</h1>
+                <h1 id="about">About Me</h1>
                 <h5 class="d-flex align-items-center justify-content-center">
-                    Devops
+                    My Name is Nicole Broadnax, and I am a programmer Trainee
+                    for the city of Syracuse, currently studying to be a
+                    Software Engineer. I studied social media marketing, content
+                    creation, and web development as a freelancer for a year.
+                    I'm enrolled in Hack Upstate’s Codes & Careers Coding
+                    Bootcamp. I will be graduating in September 2022!
                 </h5>
             </section>
             <section
                 id="contact"
                 class="d-flex flex-column justify-content-center"
             >
-                <h1>Contact Info.</h1>
+                <h1 id="contactInfo">Contact</h1>
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
-                        <p>
-                            You can reach me here or Send me an Quick
+                        <h5>
+                            You can reach me here or send me an
                             <a href="=mailto:Nicole_Broadnax@yahoo.com"
-                                >Email</a
+                                >email</a
                             >
-                        </p>
+                        </h5>
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <form
@@ -150,8 +170,10 @@
                 <a
                     href="https://github.com/NicoleeeBroadnax/Nicoleeebroadnax.github.io"
                 >
-                    This is my github
+                    Github
                 </a>
+                <i class="fab fa-github"></i>
+
                 <p>© 2022 Broadnax</p>
             </footer>
         </div>
